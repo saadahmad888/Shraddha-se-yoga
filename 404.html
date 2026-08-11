@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Page not found — Shraddha se Yoga</title>
+<meta name="robots" content="noindex, follow" />
+<meta name="theme-color" content="#120C08" id="themeColor" />
+
+<!-- NOTE: paths are root-relative on purpose. GitHub Pages serves this file for any
+     missing URL at any depth, so relative paths like assets/… would break.
+     If the repo is renamed, update /Shraddha-se-yoga/ everywhere in this file. -->
+
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="assets/images/favicon-48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon-192.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet" />
+
+<script>
+(function(){try{var t=localStorage.getItem('ssy-theme');
+if(!t)t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';
+document.documentElement.setAttribute('data-theme',t);
+document.addEventListener('DOMContentLoaded',function(){
+  document.getElementById('themeColor').setAttribute('content',t==='light'?'#F7F1E7':'#120C08');});
+}catch(e){}})();
+</script>
+
+<style>
+:root{
+  --void:#120C08; --ghee:#E8C079; --ghee-2:#B98A45; --tulsi:#96A88C;
+  --chalk:#F3EBE1; --chalk-2:#C8B6A4; --chalk-3:#8C7B6C;
+  --glass:rgba(243,235,225,.05); --glass-2:rgba(243,235,225,.09);
+  --edge:rgba(243,235,225,.10); --edge-2:rgba(232,192,121,.28);
+  --btn-fg:#1B1108; --grain-blend:overlay; --grain-op:.38;
+  --vig:rgba(0,0,0,.55); --aura-op:.5;
+  --display:"Fraunces",Georgia,serif;
+  --body:"Instrument Sans",-apple-system,BlinkMacSystemFont,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+  --deva:"Tiro Devanagari Hindi",serif;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+[data-theme="light"]{
+  --void:#F7F1E7; --ghee:#8E5F14; --ghee-2:#B98A45; --tulsi:#5C7050;
+  --chalk:#241710; --chalk-2:#5A4636; --chalk-3:#8A7565;
+  --glass:rgba(255,255,255,.62); --glass-2:rgba(255,255,255,.85);
+  --edge:rgba(63,37,14,.14); --edge-2:rgba(142,95,20,.32);
+  --btn-fg:#FFF8EC; --grain-blend:multiply; --grain-op:.14;
+  --vig:rgba(120,88,54,.14); --aura-op:.44;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;min-height:100svh;display:grid;place-items:center;padding:32px 20px;
+  background:var(--void);color:var(--chalk);font-family:var(--body);line-height:1.6;
+  overflow-x:hidden;-webkit-font-smoothing:antialiased;text-align:center}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--ghee);outline-offset:3px;border-radius:6px}
+
+.atmos{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.aura{position:absolute;border-radius:50%;filter:blur(80px);opacity:var(--aura-op)}
+.aura--a{width:60vmax;height:60vmax;left:-20vmax;top:-24vmax;
+  background:radial-gradient(circle,rgba(232,192,121,.32),transparent 62%);
+  animation:driftA 24s ease-in-out infinite alternate}
+.aura--b{width:52vmax;height:52vmax;right:-18vmax;bottom:-20vmax;
+  background:radial-gradient(circle,rgba(150,168,140,.24),transparent 64%);
+  animation:driftB 30s ease-in-out infinite alternate}
+@keyframes driftA{to{transform:translate(90px,60px)}}
+@keyframes driftB{to{transform:translate(-70px,-50px)}}
+.grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:var(--grain-op);
+  mix-blend-mode:var(--grain-blend);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E")}
+.vignette{position:fixed;inset:0;z-index:1;pointer-events:none;
+  background:radial-gradient(120% 90% at 50% 40%,transparent 40%,var(--vig) 100%)}
+
+main{position:relative;z-index:2;width:min(620px,100%)}
+.logo{width:82px;height:82px;border-radius:50%;margin:0 auto 30px;display:block;
+  animation:logoZoom 2.4s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes logoZoom{
+  0%,100%{transform:scale(.92);box-shadow:0 0 0 0 rgba(232,192,121,0)}
+  50%    {transform:scale(1.1);box-shadow:0 0 44px 5px rgba(232,192,121,.28)}
+}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--ghee);margin:0 0 22px;display:flex;align-items:center;justify-content:center;gap:12px}
+.eyebrow span{font-family:var(--deva);color:var(--tulsi);letter-spacing:0;
+  text-transform:none;font-size:14px}
+.code{font-family:var(--display);font-size:clamp(4.6rem,16vw,9rem);line-height:.86;
+  letter-spacing:-.04em;margin:0;font-weight:500;
+  background:linear-gradient(160deg,var(--chalk),var(--ghee));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(1.5rem,4.4vw,2.3rem);
+  line-height:1.1;letter-spacing:-.02em;margin:18px 0 0}
+h1 em{color:var(--ghee)}
+p.lede{color:var(--chalk-2);font-size:1.02rem;margin:16px auto 0;max-width:44ch}
+.acts{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:34px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:52px;
+  padding:0 26px;border-radius:100px;border:0;cursor:pointer;font-weight:600;font-size:.95rem;
+  background:var(--ghee);color:var(--btn-fg);transition:transform .5s var(--ease),box-shadow .5s var(--ease);
+  box-shadow:0 8px 26px rgba(185,138,69,.24),inset 0 1px 0 rgba(255,255,255,.3)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 14px 38px rgba(185,138,69,.34)}
+.btn--ghost{background:var(--glass-2);color:var(--chalk);border:1px solid var(--edge-2);
+  box-shadow:none;backdrop-filter:blur(10px)}
+.btn svg{width:17px;height:17px;fill:currentColor}
+nav.links{margin-top:40px;padding-top:26px;border-top:1px solid var(--edge);
+  display:flex;flex-wrap:wrap;gap:6px 4px;justify-content:center}
+nav.links a{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--chalk-3);padding:10px 14px;border-radius:100px;transition:color .3s,background .3s}
+nav.links a:hover{color:var(--ghee);background:var(--glass)}
+footer{margin-top:30px;font-family:var(--mono);font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--chalk-3)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="atmos" aria-hidden="true"><div class="aura aura--a"></div><div class="aura aura--b"></div></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<main>
+  <a href="index.html">
+    <img class="logo" src="assets/images/logo.png" alt="Shraddha se Yoga" width="82" height="82" />
+  </a>
+
+  <p class="eyebrow">Not found <span>· मार्ग</span></p>
+  <p class="code">404</p>
+  <h1>This page has <em>left the mat.</em></h1>
+  <p class="lede">The link you followed doesn't exist — or doesn't any more. Nothing is broken on your end. Come back to the practice and start with one breath.</p>
+
+  <div class="acts">
+    <a class="btn" href="index.html">Back to the practice</a>
+    <a class="btn btn--ghost" href="index.html#book">Book a free intro call</a>
+  </div>
+
+  <nav class="links" aria-label="Main sections">
+    <a href="index.html#about">Shraddha</a>
+    <a href="index.html#practice">Practice</a>
+    <a href="index.html#ritual">The 35-day ritual</a>
+    <a href="index.html#offer">Offer</a>
+    <a href="index.html#voices">Voices</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="https://www.instagram.com/shraddha_se_yoga/" target="_blank" rel="noopener">Instagram</a>
+  </nav>
+
+  <footer>Shraddha se Yoga · From stress to strength</footer>
+</main>
+
+</body>
+</html>

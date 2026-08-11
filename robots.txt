@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saadahmad888.github.io/Shraddha-se-yoga/sitemap.xml
